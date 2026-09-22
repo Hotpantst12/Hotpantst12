@@ -2181,7 +2181,7 @@ body {
 
 @media (max-width: 1024px) {
   .flowers {
-    transform: scale(0.8) translateY(1vmin);
+    transform: scale(0.88);
   }
 }
 
@@ -2191,11 +2191,11 @@ body {
     justify-content: center;
   }
   .flowers {
-    transform: scale(0.65) translateY(2vmin);
+    transform: scale(0.82) translateY(1vmin);
     transform-origin: bottom center;
   }
   .text-overlay-wrapper {
-    top: 4.5vh;
+    top: 4vh;
     width: 90%;
   }
 }
@@ -2206,18 +2206,18 @@ body {
     justify-content: center;
   }
   .flowers {
-    transform: scale(0.52) translateY(5vmin);
+    transform: scale(0.76) translateY(2vmin);
     transform-origin: bottom center;
   }
   .flower {
-    bottom: 5vmin;
+    bottom: 8vmin;
   }
   .text-overlay-wrapper {
     top: 3.5vh;
     width: 92%;
   }
   .text-overlay {
-    font-size: clamp(2.1rem, 8.5vw, 3.2rem);
+    font-size: clamp(2.2rem, 9vw, 3.4rem);
   }
   .text-sub {
     font-size: clamp(0.75rem, 3vw, 0.95rem);
@@ -2227,7 +2227,7 @@ body {
 
 @media (max-width: 360px) {
   .flowers {
-    transform: scale(0.44) translateY(6vmin);
+    transform: scale(0.68) translateY(2vmin);
   }
   .text-overlay-wrapper {
     top: 2.5vh;
@@ -2237,7 +2237,7 @@ body {
 
 @media (max-height: 650px) and (orientation: landscape) {
   .flowers {
-    transform: scale(0.42) translateY(6vmin);
+    transform: scale(0.48) translateY(5vmin);
   }
   .text-overlay-wrapper {
     top: 2vh;
